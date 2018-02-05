@@ -1,84 +1,922 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-<meta name="google-site-verification" content="ThRppfLbC9nvKzUbaFAoot7k-xTt1z8Q9GUnH1xdkQY" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta charset="UTF-8">
-<title>Welcome</title>
-<link rel="stylesheet" href="assets/css/aurora-pack.min.css">
-<link rel="stylesheet" href="assets/css/aurora-theme-base.min.css">
-<link rel="stylesheet" href="assets/css/urku.css">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Neeraj Desai - Portfolio</title>
+
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+
+    <style>
+      .carousel-inner > .item > img,
+      .carousel-inner > .item > a > img 
+        {
+          width: 100%;
+          margin: auto;
+         }
+     </style>   
+
 </head>
 
-<body class="top-fixed">
-<header class="ae-container-fluid ae-container-fluid--full rk-header ">
-  <input type="checkbox" id="mobile-menu" class="rk-mobile-menu">
-  <label for="mobile-menu"> <svg>
-    <use xlink:href="assets/img/symbols.svg#bar"></use>
-    </svg> <svg>
-    <use xlink:href="assets/img/symbols.svg#bar"></use>
-    </svg> <svg>
-    <use xlink:href="assets/img/symbols.svg#bar"></use>
-    </svg> </label>
-  <div class="ae-container-fluid rk-topbar">
-    <h1 class="rk-logo"><a href="index.html">neeraj desai's portfolio</a></h1>
-    <nav class="rk-navigation">
-      <ul class="rk-menu">
-        <li class="rk-menu__item"><a href="portfolio.html" class="rk-menu__link">Portfolio</a></li>
-        <li class="rk-menu__item"><a href="projects.html" class="rk-menu__link">Projects</a></li>
-        <li class="rk-menu__item"><a href="about.html" class="rk-menu__link">About</a></li>
-      </ul>
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Neeraj Desai</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right" >
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    
+                    <li >
+                        <a class="page-scroll" href="#portfolio">Work</a>
+                    </li>
+
+                     <li>
+                        <a class="page-scroll" href="#skills">Skills</a>
+                    </li>
+                    
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                    
+                    <li>
+                        <a class="page-scroll" href="resume.pdf" target="_blank">Resume</a>
+                        <!-- <a class="page-scroll" href="resume.html">Resume</a> -->
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
     </nav>
-  </div>
-</header>
-<section class="ae-container-fluid rk-main">
-  <input type="radio" name="layout-ctrl" checked id="layout-base" class="layout-ctrl-input">
-<!--  <div class="rk-layout-ctrl-mobile  layout-blog"> <svg viewBox="0 0 9 9" class="layout-mob-1">
-    <rect width="100%" height="100%" fill="currentColor"></rect>
-    </svg> <svg viewBox="0 0 9 9" class="layout-mob-2">
-    <rect width="100%" height="100%" fill="currentColor"></rect>
-    </svg> <svg viewBox="0 0 9 9" class="layout-mob-3">
-    <rect width="100%" height="100%" fill="currentColor"></rect>
-    </svg> <svg viewBox="0 0 9 9" class="layout-mob-4">
-    <rect width="100%" height="100%" fill="currentColor"></rect>
-    </svg> </div>-->
-  <section class="ae-container-fluid ae-container-fluid--inner rk-blog">
-    <div class="ae-grid__item item-lg--auto"><img src="assets/img/post-1.jpg" alt="Neeraj's Portfolio"></div>
-    <div class="blog-info">
-      <h2 class="blog-info__title">Welcome</h2>
-      <h5 class="blog-info__author">By Neeraj Desai</h5>
-      <p class="blog-meta__comments">Thanks for visiting.</p>
-    </div> 
-  </section>
-</section>
-<footer class="ae-container-fluid rk-footer ">
-  <div class="ae-grid ae-grid--collapse">
-    <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-left">
-      <ul class="rk-menu rk-footer-menu">
-        <li class="rk-menu__item"><a href="about.html" class="rk-menu__link">About</a> </li>
-        <li class="rk-menu__item"><a href="projects.html" class="rk-menu__link">Projects</a></li>
-        <li class="rk-menu__item"><a href="portfolio.html" class="rk-menu__link">Portfolio</a> </li>
-      </ul>
-      <p class="rk-footer__text rk-footer__copy "> <span class="ae-u-bold">© </span><span class="ae-u-bolder">2016 NEERAJ DESAI'S PORTFOLIO </span>All Right Reserved.</p>
+
+    <!-- Header -->
+    <!-- <header> -->
+        <section class="">
+            <div class="container">
+            <div class = "row">
+            <div class="intro-text">
+                <div class = "col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                </div>
+           
+                <div class = "col-lg-8 col-md-8 col-sm-8 col-xs-8">
+               
+
+                <img class="img-responsive img-centered" src="neeraj.png" alt="">
+
+                <br>
+
+                <p style = "font-size : 20px" class = "text-center"> Hi, I am Neeraj. I am a Product Designer and a Computer Engineer. </p>
+                <br>
+                <p style = "font-size : 15px" class = "text-center">I currently work as a software engineer at <a href = "https://LockheedMartin.com" target="_blank"><b>Lockheed Martin</b></a>. I  graduated with a Bachelor of Science in Computer Engineering from <a href="https://www.umbc.edu/" target="_blank"><b>University of Maryland, Baltimore County</b></a>. I studied Architecture for a year and have been graphic designing for 6 years. Iʼm a passionate User Experience Designer with knowledge in the user-centered design. I advocate for user needs through planning, design and implementation ensuring all output reflects a solid understanding of UX principles. I have a strong desire to inspire creativity, innovative thinking and offer compelling solutions that translate into building worldclass interactive experiences and products across all digital platforms. I like tinkering with art and technology.</p>
+               
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- </header> -->
+
+
+
+    
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Personal Projects</h2>
+                    <h3 class="section-subheading text-muted"> </h3>
+                </div>
+            </div>
+            
+            <div class="row">
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/faces-thumb.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Names & Faces</h4>
+                        <p class="text-muted">User Experience Design</p>
+                    </div>
+                </div>
+				
+				<div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/amazon-thumb.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Amazon Payment</h4>
+                        <p class="text-muted">Interaction Design</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/zara/zara-thumb.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Zara Website Concept</h4>
+                        <p class="text-muted">UI Design</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/baby_app/baby-thumb.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Baby App</h4>
+                        <p class="text-muted">Interaction Design</p>
+                    </div>
+                </div>
+   
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/calorie_app/calorie-thumb.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Calorie Calculator</h4>
+                        <p class="text-muted">Interaction Design</p>
+                    </div>
+                </div>
+
+      			
+            </div>
+        </div>
+
+<!--Photoshop and Graphic Work-->
+        <div class = "container">
+
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3 class="section-heading">Photoshop and Graphic Work</h3>
+                    <h3 class="section-subheading text-muted">  </h3>
+                </div>
+            </div>
+
+            <div class = "row">
+      
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/manish/manish-thumb.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Logo Design</h4>
+                        <p class="text-muted">Typography</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/kirtan-photoshop-thumb.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Arc de Triomphe</h4>
+                        <p class="text-muted">Photoshop</p>
+                    </div>
+                </div>
+
+               <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/jd/JD-thumb.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>JD Accounting</h4>
+                        <p class="text-muted">Rebranding</p>
+                    </div>
+                </div>
+
+                 <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/digitial_art-thumb.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Procreate iPad Drawing</h4>
+                        <p class="text-muted">Digital Art</p>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+
+    </section>
+
+
+     <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Skills</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-eye fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Research</h4>
+                    <p class="text-muted">2 years of experience with User Research, Contextual Inquiry, Game Research, Usability Evaluation, and Data Analysis.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-paint-brush fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Design</h4>
+                    <p class="text-muted">3 years of experience in Visual Design, primarily focusing on User Interface Design. Skilled at design and prototyping tools.</p>
+                </div>
+                <dilass="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-code fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Develop</h4>
+                    <p class="text-muted">Programming experience with Python and C.</p> 
+                </div>
+            </div>
+        </div>
+        
+ 
+    </section>
+
+
+    
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Reach out</h2>
+                    <h3 class="section-subheading text-muted">I would love to hear from you! <br><br>
+                    <a href="mailto:neerajdesai@outlook.com">neerajdesai@outlook.com</a><br><br>
+                        240.566.2353 | Washington, DC</h3>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Neeraj Desai</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://twitter.com/needesai" target="_blank"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="https://www.facebook.com/ndeasi14" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https://in.linkedin.com/in/neerajdesai1" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/neeDesai" target="_blank"><i class="fa fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Back to the top</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+
+       <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-lg-offset-0">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Names & Faces</h2>
+                            <p class="item-intro text-muted"><b>Design Prompt:</b> At the beginning of each new semester or school year, teachers are faced with the challenge of remembering names for a large number of new students. Names & Faces is an attempt to design a digital experience to help an educator match faces to names, with the goal of shortening the time needed to reach complete un-aided accuracy.</p>
+
+                            <h3> PROCESS </h3>
+                            <img class="img-responsive img-centered" src="img/portfolio/faces-process.png" alt="">
+
+                             <ul class="list-inline">
+                                <li><b>Timeline:</b> 2 weeks</li>
+                            </ul>
+
+                            <h3> LITERATURE </h3>
+                             <div class = "row">
+                                <div class = "col-lg-6 md-6 sm-12">
+                                 <h4>How does memory work?</h4>
+                                <p> <b>There are three main stages in the formation and retrieval of memory:</b>
+                                    
+                                        <br>Encoding or registration (receiving, processing and combining of received information)<br>
+                                        Storage (creation of a permanent record of the encoded information)<br>
+                                        Retrieval, recall or recollection (calling back the stored information in response to some cue for use in a process or activity)
+                                    
+                                </p>
+                                </div>
+
+                                 <div class = "col-lg-6 md-6 sm-12">
+                                    <h4>What tricks do people use?</h4>
+                                    
+                                        <p>Listen carefully. Focus on the name when they first say it.
+                                        <br>Repeat the name out loud.
+                                        <br>Create a memorable link to something popular. Ex. curious George. 
+                                        <br> Visualize their name - picture it written across their face. 
+                                        <br> Use Mnemonics (Dale works in sales), or alliterations (Joann from Jersey)
+                                        
+                                        <br> Associate names with things about people: Ex. Margarita runs a bar.</p>
+                                    
+                                </div>
+                            </div>
+
+
+                            
+
+                            <h3> Interviewing Teachers </h3>
+
+                             <p> I interviewed 3 teachers currently teaching classes of sizes ranging from 20 - 100 students. Interview questions revolved around the trouble teachers face while remembering names, the workarounds they use, their personalized strategies, and the importance they attach to students' names. I arranged the interview notes into an Affinity Diagram, and found some key insights: </p>
+
+                            <div class = "row">
+                                
+                                 <div class = "col-lg-6 md-6 sm-12">
+                                    
+                                    <ul>
+                                        <br>    
+                                        <li>It is important for me to remember students’ names.</li>
+                                        <br>
+                                         <li>Recollecting names helps me as a teacher.</li>
+                                         <br>
+                                         <li>I have developed strategies to remember students’ names.</li>
+                                         <br>
+                                         <li>Some students’ names are easier to remember than others. </li>
+                                         <br>
+                                         <li>I find it difficult to remember names, and work hard to store and recall students’ names. </li>
+                                    </ul>
+
+                                </div>
+                            </div> 
+
+                             <h3> Competitive Analysis </h3>
+                            <p> Apart from understanding what teachers need, I looked into what tools already exist in the market that have attempted to solve the problem. I analyzed each of these tools by using them, and reading user reviews. I made a list of what works about them, and what the gaps are. </p>
+
+                            <div class = "row">
+                                <div class = "col-lg-2 md-2 sm-12">
+                                    <h4> Tool </h4>
+                                </div>
+                                <div class = "col-lg-2 md-2 sm-12">
+                                    <img class="img-responsive img-centered" src="img/portfolio/faces-tool1.png" alt="">
+                                </div>
+                                <div class = "col-lg-2 md-2 sm-12">
+                                    <img class="img-responsive img-centered" src="img/portfolio/faces-tool2.png" alt="">
+                                </div>
+                                <div class = "col-lg-2 md-2 sm-12">
+                                    <img class="img-responsive img-centered" src="img/portfolio/faces-tool3.png" alt="">
+                                </div>
+                                <div class = "col-lg-2 md-2 sm-12">
+                                    <img class="img-responsive img-centered" src="img/portfolio/faces-tool4.png" alt="">
+                                </div>
+                                <div class = "col-lg-2 md-2 sm-12">
+                                    <img class="img-responsive img-centered" src="img/portfolio/faces-tool5.png" alt="">
+                                </div>
+                            </div>
+
+
+                             <div class = "row">
+                                <div class = "col-lg-2 md-2 sm-12">
+                                    <h4> What works </h4>
+                                </div>
+                                <div class = "col-lg-2 md-2 sm-12">
+                                    <p> Call reminder application that you can add contacts to. </p> 
+                                    <p>Use it to add contacts and notes about them. Example: “co-worker on the third floor with the office plant” is named Chelsea.</p>
+                                </div>
+                                <div class = "col-lg-2 md-2 sm-12">
+                                    <p> Remember Names & Faces Of People Through Awesome Quizzes. </p> 
+                                    <p>Categorize people - Church/work. Pull photos from social network. Add them to a list and test yourself on their names. </p>
+                                </div>
+                                <div class = "col-lg-2 md-2 sm-12">
+                                    <p> Improves your memory of people's names using repetition and mnemonics modelled from memory 'athletes' and studies of the human memory. </p>
+                                </div>
+                                <div class = "col-lg-2 md-2 sm-12">
+                                    <p> Add contacts. Import their social network info. Search by info.  </p>
+                                </div>
+                                <div class = "col-lg-2 md-2 sm-12">
+                                    <p> Import data from social network.  </p> 
+                                    <p>Send challenges to friends. Train & quiz yourself, keep score if you want to.</p>
+                                </div>
+                            </div>
+                            <div class = "row">
+                                <div class = "col-lg-2 md-2 sm-12">
+                                    <h4> What are the gaps </h4>
+                                </div>
+                                <div class = "col-lg-2 md-2 sm-12">
+                                    <p> Search by notes is not very effective.   </p> 
+                                    <p>It requires time and focus to add every person’s information.</p>
+                                    <p> Not ideal for teachers, since they will need to add the entire class.   </p> 
+                                </div>
+                                <div class = "col-lg-2 md-2 sm-12">
+                                    <p> Nature of quizzes inappropriate for teacher-student interaction.  </p> 
+                                    <p>Doesn’t work for contacts that are not on social network / don’t use real photos. </p>
+                                </div>
+                                <div class = "col-lg-2 md-2 sm-12">
+                                    <p> Doesn’t work for contacts that are not on social network / don’t use real photos.   </p> 
+                                    <p>Doesn’t track progress.</p>
+                                </div>
+                                <div class = "col-lg-2 md-2 sm-12">
+                                    <p> Very beta, search does not work. </p> 
+                                    <p>Users reported preferring normal contact saving.</p>
+                                    <p> Not feasible for a large group of people.   </p> 
+                                </div>
+                                <div class = "col-lg-2 md-2 sm-12">
+                                    <p> Doesn’t work for contacts that are not on social network / don’t use real photos.  </p> 
+                                    <p>Very little and impersonal information for quiz generation. </p>
+                                </div>
+                            </div>
+
+
+
+
+                             <h3> Research Insights </h3>
+                            <p> Combining  all the insights from contextual interviews, literature review and competitive analysis, I gathered the following insights which directed my design ideas:
+
+                            <ul>
+                                        <li>It is important for me to remember students’ names, since it helps me as a teacher.</li><br>
+                                         <li>I find it difficult to remember names, and work hard to store and recall students’ names.</li><br>
+                                         <li>I have developed strategies to remember students’ names.</li><br>
+                                         <li>Some students’ names are easier to remember than others. </li><br>
+                                         <li>There exist several tools in the market that aid people in remembering names, but none of these are focused specifically on students and teachers. </li><br>
+                                         <li> There are several memory tricks that can help me remember students’ names better. </li><br>
+                                         <li> I feel proud when I can remember all my students’ names. </li>
+                            </ul>
+
+                            </p>
+
+                            
+
+                            <h3> Concept Model </h3>
+                            <p> Based on the findings from the idea-testing exercise, I built a concept model for the envisioned product. I combined ideas based on what worked and changed about them, what didn't work.  </p>
+                            <img class="img-responsive img-centered" src="img/portfolio/faces-conceptmodel.png" alt="">
+
+                            <h3> Wireframing </h3>
+                            <img class="img-responsive img-centered" src="img/portfolio/faces-wireframes.png" alt="">
+                            <img class="img-responsive img-centered" src="img/portfolio/faces-wireframes2.png" alt="">
+
+                            <h3> High-fidelity Mock-ups </h3>
+                            <img class="img-responsive img-centered" src="img/portfolio/faces-mockups.png" alt="">
+
+                            
+
+
+                             <br> <br> <br>
+
+                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="ae-grid__item item-lg-4 au-xs-ta-center"> <a class="rk-social-btn "> <svg>
-      <use></use>
-      </svg></a> <a href="https://www.linkedin.com/in/neerajdesai1" target="_blank" class="rk-social-btn "> <svg>
-      <use xlink:href="assets/img/symbols.svg#icon-twitter"></use>
-      </svg></a> <a href="https://www.instagram.com/needesai" target="_blank" class="rk-social-btn "> <svg>
-      <use xlink:href="assets/img/symbols.svg#icon-pinterest"></use>
-      </svg></a> <a class="rk-social-btn "> <svg>
-      <use></use>
-      </svg></a> </div>
-    <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right">
-      <p class="rk-footer__text rk-footer__contact "> <span class="ae-u-bold">Email: </span><span class="ae-u-bolder"> <a href="mailto:neerajdesai@outlook.com" class="rk-dark-color ">neerajdesai@outlook.com </a></span></p>
+
+   
+   
+         <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-lg-offset-0">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Amazon Payment</h2>
+                            <p class="item-intro text-muted"><b>Design Prompt:</b> Create a new payment flow concept for Amazon iPad App. </p>
+
+							<h3> ISSUE </h3>
+                             <div class = "row">
+                                <div class = "col-lg-6 md-6 sm-12">
+									<p>I didn't want to move out of the screen while making payment.</p>
+								</div>
+							</div>
+							
+                            <h3> PROCESS </h3>
+                            <img class="img-responsive img-centered" src="img/portfolio/amazon_process.jpg" alt="">
+
+							<h3> Concept Model </h3>
+                            <img class="img-responsive img-centered" src="img/portfolio/amazon.gif" alt="">
+
+                            <ul class="list-inline">
+                                <li><b>Timeline:</b> 25 hours</li>
+                            </ul>
+
+
+                             <br> <br> <br>
+
+                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</footer>
-<script src="assets/js/svg4everybody.min.js"></script> 
-<script>
-        svg4everybody();
-    </script>
+   
+   
+           <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-lg-offset-0">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Logo Design</h2>
+                            <p class="item-intro text-muted"><b>Design Prompt:</b> Asked to design a logo for a photography company. </p>
+
+
+							<h3> New Logo </h3>
+                            <img class="img-responsive img-centered" src="img/portfolio/manish/manish-logo.jpg" alt="">
+                            <img class="img-responsive img-centered" src="img/portfolio/manish/manish-1.jpg" alt="">
+                            <img class="img-responsive img-centered" src="img/portfolio/manish/manish-2.jpg" alt="">
+
+                            <ul class="list-inline">
+                                <li><b>Timeline:</b> 2 hours</li>
+                            </ul>
+
+
+                             <br> <br> <br>
+
+                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+       <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-lg-offset-0">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Arc de Triomphe</h2>
+                            <p class="item-intro text-muted"><b>Photoshop Challenge:</b> Was asked if I could make all the cars disappear. </p>
+
+							<h3> Disappearing Cars </h3>
+                            <img class="img-responsive img-centere" src="img/portfolio/kirtan-photoshop.jpg" alt="">
+
+                            <ul class="list-inline">
+                                <li><b>Timeline:</b> 2 hours</li>
+                            </ul>
+
+
+                             <br> <br> <br>
+
+                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+       <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-lg-offset-0">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>JD Accounting</h2>
+                            <p class="item-intro text-muted"><b>Rebranding:</b> A local accounting firm was in need of rebranding their image. </p>
+
+                            <h3> End Result </h3>
+                            <img class="img-responsive img-centere" src="img/portfolio/jd/JD-Logo_Design.jpg" alt="">
+                            <img class="img-responsive img-centere" src="img/portfolio/jd/Business_Cards.jpg" alt="">
+                            <img class="img-responsive img-centere" src="img/portfolio/jd/JD-Folders.jpg" alt="">
+
+                            <ul class="list-inline">
+                                <li><b>Timeline:</b> 1 week</li>
+                            </ul>
+
+
+                             <br> <br> <br>
+
+                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+       <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-lg-offset-0">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Calorie Calculator</h2>
+                            <p class="item-intro text-muted"><b>Rebranding:</b> A local accounting firm was in need of rebranding their image. </p>
+
+                            <h3> End Result </h3>
+                            <img class="img-responsive img-centere" src="img/portfolio/calorie_app/2-1.png" alt="">
+                            <img class="img-responsive img-centere" src="img/portfolio/calorie_app/3-1.png" alt="">
+                            <img class="img-responsive img-centere" src="img/portfolio/calorie_app/4-1.png" alt="">
+                            <img class="img-responsive img-centere" src="img/portfolio/calorie_app/5-1.png" alt="">
+                            <img class="img-responsive img-centere" src="img/portfolio/calorie_app/6-1.png" alt="">
+                            <img class="img-responsive img-centere" src="img/portfolio/calorie_app/7-1.png" alt="">
+
+                            <ul class="list-inline">
+                                <li><b>Timeline:</b> 1 week</li>
+                            </ul>
+
+
+                             <br> <br> <br>
+
+                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+      <!-- Portfolio Modal 7 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-lg-offset-0">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Zara Website Concept</h2>
+                            <p class="item-intro text-muted"><b>Rebranding:</b> A local accounting firm was in need of rebranding their image. </p>
+
+                            <h3> End Result </h3>
+                            <img class="img-responsive img-centere" src="img/portfolio/zara/1.jpg" alt="">
+                            <img class="img-responsive img-centere" src="img/portfolio/zara/2.jpg" alt="">
+                            <img class="img-responsive img-centere" src="img/portfolio/zara/3.jpg" alt="">
+                            <img class="img-responsive img-centere" src="img/portfolio/zara/4.jpg" alt="">
+                            <img class="img-responsive img-centere" src="img/portfolio/zara/5.jpg" alt="">
+                            <img class="img-responsive img-centere" src="img/portfolio/zara/6.jpg" alt="">
+                            <img class="img-responsive img-centere" src="img/portfolio/zara/7.jpg" alt="">
+                            <img class="img-responsive img-centere" src="img/portfolio/zara/12.jpg" alt="">
+                            <img class="img-responsive img-centere" src="img/portfolio/zara/13.jpg" alt="">
+
+                            <ul class="list-inline">
+                                <li><b>Timeline:</b> 1 week</li>
+                            </ul>
+
+
+                             <br> <br> <br>
+
+                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Portfolio Modal 8 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-lg-offset-0">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Baby App</h2>
+                            <p class="item-intro text-muted"><b>Rebranding:</b> A local accounting firm was in need of rebranding their image. </p>
+
+                            <h3> End Result </h3>
+                            <img class="img-responsive img-centere" src="img/portfolio/baby_app/1.jpg" alt="">
+                            <img class="img-responsive img-centere" src="img/portfolio/baby_app/2.jpg" alt="">
+                            <img class="img-responsive img-centere" src="img/portfolio/baby_app/3.jpg" alt="">
+                            <img class="img-responsive img-centere" src="img/portfolio/baby_app/4.jpg" alt="">
+                            <img class="img-responsive img-centere" src="img/portfolio/baby_app/5.jpg" alt="">
+
+                            <ul class="list-inline">
+                                <li><b>Timeline:</b> 1 week</li>
+                            </ul>
+
+
+                             <br> <br> <br>
+
+                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <!-- Portfolio Modal 9 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-lg-offset-0">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Digital Art Drawing</h2>
+                            <p class="item-intro text-muted"><b>Rebranding:</b> A local accounting firm was in need of rebranding their image. </p>
+
+                            <h3> End Result </h3>
+                            <img class="img-responsive img-centere" src="img/portfolio/digitial_art-final.png" alt="">
+                            <img class="img-responsive img-centered" src="img/portfolio/bapa.gif" alt="">
+
+                            <ul class="list-inline">
+                                <li><b>Timeline:</b> 80 hours</li>
+                            </ul>
+
+
+                             <br> <br> <br>
+
+                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+
+
+
 </body>
+
 </html>
