@@ -3661,7 +3661,7 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
   align-items: center;
   flex: 1 0 auto;
   height: 100%;
-  margin-right: 15px;
+  margin-right: 0px;
 }
 .logo__wrapper-img img {
   transition: all 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
