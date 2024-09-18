@@ -1,0 +1,41 @@
+{
+  "name": "webai",
+  "version": "1.0",
+  "description": "WebAi - AI Startup & Technology Landing Page HTML Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "coderthemes",
+  "private": true,
+  "devDependencies": {
+    "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
+    "autoprefixer": "^10.4.14",
+    "browser-sync": "^2.29.1",
+    "clean-css": "^5.3.2",
+    "del": "^6.1.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-cssimport": "^7.0.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-npm-dist": "^1.0.4",
+    "gulp-postcss": "^9.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "postcss": "^8.4.30",
+    "postcss-import": "15.1.0",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.3",
+    "aos": "^2.3.4",
+    "glightbox": "^3.2.0",
+    "gumshoejs": "^5.1.2",
+    "lucide": "^0.284.0",
+    "preline": "^1.9.0",
+    "swiper": "^10.2.0"
+  }
+}
