@@ -1,5 +1,3 @@
-
-// Define all scales
 const scales = [
   {
     name: "C Major",
@@ -14,64 +12,41 @@ const scales = [
       { name: "Sa", frequency: 523.25 }, // High C
     ],
   },
-  {
-    name: "D Major",
-    notes: [
-      { name: "Sa", frequency: 293.66 }, // D
-      { name: "Re", frequency: 329.63 }, // E
-      { name: "Ga", frequency: 369.99 }, // F#
-      { name: "Ma", frequency: 392.00 }, // G
-      { name: "Pa", frequency: 440.00 }, // A
-      { name: "Dha", frequency: 493.88 }, // B
-      { name: "Ni", frequency: 554.37 }, // C#
-      { name: "Sa", frequency: 587.33 }, // High D
-    ],
-  },
-  {
-    name: "E Minor",
-    notes: [
-      { name: "Sa", frequency: 329.63 }, // E
-      { name: "Re", frequency: 349.23 }, // F
-      { name: "Ga", frequency: 392.00 }, // G
-      { name: "Ma", frequency: 440.00 }, // A
-      { name: "Pa", frequency: 493.88 }, // B
-      { name: "Dha", frequency: 523.25 }, // High C
-      { name: "Ni", frequency: 587.33 }, // High D
-      { name: "Sa", frequency: 659.25 }, // High E
-    ],
-  },
 ];
 
-let currentScaleIndex = 0;
+const keyboard = [
+  { name: "C", type: "white", frequency: 261.63 },
+  { name: "C#", type: "black", frequency: 277.18 },
+  { name: "D", type: "white", frequency: 293.66 },
+  { name: "D#", type: "black", frequency: 311.13 },
+  { name: "E", type: "white", frequency: 329.63 },
+  { name: "F", type: "white", frequency: 349.23 },
+  { name: "F#", type: "black", frequency: 369.99 },
+  { name: "G", type: "white", frequency: 392.00 },
+  { name: "G#", type: "black", frequency: 415.30 },
+  { name: "A", type: "white", frequency: 440.00 },
+  { name: "A#", type: "black", frequency: 466.16 },
+  { name: "B", type: "white", frequency: 493.88 },
+  { name: "C", type: "white", frequency: 523.25 },
+];
 
-// Create a Tone.js Synth
 const synth = new Tone.Synth().toDestination();
 
-// Generate piano keys
 function generatePiano() {
   const piano = document.getElementById("piano");
-  piano.innerHTML = ""; // Clear existing keys
+  piano.innerHTML = "";
 
-  const notes = scales[currentScaleIndex].notes;
-  notes.forEach((note, i) => {
-    const key = document.createElement("div");
-    key.className = `key ${i % 2 === 1 ? "black" : ""}`;
-    key.innerHTML = `<span>${note.name}</span>`;
-    key.addEventListener("click", () => playSound(note.frequency));
-    piano.appendChild(key);
+  keyboard.forEach((key) => {
+    const keyDiv = document.createElement("div");
+    keyDiv.className = `key ${key.type}`;
+    keyDiv.innerHTML = `<span>${key.name}</span>`;
+    keyDiv.addEventListener("click", () => playSound(key.frequency));
+    piano.appendChild(keyDiv);
   });
 }
 
-// Change scale
-function changeScale(direction) {
-  currentScaleIndex = (currentScaleIndex + direction + scales.length) % scales.length;
-  document.getElementById("currentScale").innerText = scales[currentScaleIndex].name;
-  generatePiano();
-}
-
-// Play a tone
 function playSound(frequency) {
-  synth.triggerAttackRelease(frequency, "8n"); // Play tone for an eighth note duration
+  synth.triggerAttackRelease(frequency, "8n");
 }
 
 // Initialize the piano

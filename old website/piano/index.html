@@ -2,25 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, orientation=landscape">
   <title>Indian Piano</title>
   <link rel="stylesheet" href="styles.css">
   <script src="https://cdn.jsdelivr.net/npm/tone"></script>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>Indian Piano</h1>
-      <div id="scaleSelector">
-        <button onclick="changeScale(-1)">◀</button>
-        <span id="currentScale">C Major</span>
-        <button onclick="changeScale(1)">▶</button>
-      </div>
-    </header>
-    <div class="piano" id="piano">
-      <!-- Piano keys will be dynamically generated -->
-    </div>
-  </div>
+  <div id="piano"></div>
   <script src="script.js"></script>
 </body>
 </html>
